@@ -9,7 +9,8 @@ function sayHello(){
 	 if (name==="zyx") {message = "<h2>Hello " + name + ", fuck off!</h2>";}
 	document.getElementById("content").innerHTML = message;
 
-	
+	document.querySelector("#title").textContent = "Nice";
+
 	if (name==="zyx") {
 		var title = "Fuck off"
 		document.querySelector("#title").textContent = title;
